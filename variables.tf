@@ -12,7 +12,7 @@ variable "region" {
 variable "zone" {
   description = "Google Cloud zone for the web server VM."
   type        = string
-  default     = "us-central1-a"
+  default     = "us-central1-b"
 }
 
 variable "network_name" {
